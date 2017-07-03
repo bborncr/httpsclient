@@ -66,7 +66,7 @@ var requestOptions = {
 
 function getAndPrintHTML (options) {
 
-  client.get(requestOptions, function (response) {
+  client.get(options, function (response) {
 
   // set encoding of received data to UTF-8
   response.setEncoding('utf8');
